@@ -28,9 +28,9 @@ The model results obtained during the search phase are saved at [ESNN_Search/NAS
 ```
 python main.py --dataset_name='CIFAR10' --data_dir='./cifar-10-python/' --mode='train_and_eval' --train_steps=700000 --num_train_images=50000 --num_eval_images=10000 --num_label_classes=10 
 ```
-Checkpoint data obtained during the search phase needs to be put in [ESNN_Retrain_CIFAR10/NAS_search_checkpoints](/ESNN_Retrain_CIFAR10/). 
+Checkpoint data obtained during the search phase needs to be put in [ESNN_Retrain/NAS_search_checkpoints](/ESNN_Retrain/). 
 
-events.out.tfevents obtained during the search phase needs to be put in [ESNN_Retrain_CIFAR10/NAS_search_results](/ESNN_Retrain_CIFAR10/). 
+events.out.tfevents obtained during the search phase needs to be put in [ESNN_Retrain/NAS_search_results](/ESNN_Retrain/). 
 
 
 ### Evaluate the searched SNN on CIFAR10
